@@ -1,0 +1,112 @@
+<head>
+  <style>
+  .left {
+    float: left;
+    margin: 8px 0;
+    margin-left: 24px;
+  }
+
+  .msg-balloon {
+    -moz-border-radius   : 20px;
+    -webkit-border-radius: 20px;
+    border-radius        : 20px;
+    color                : rgba(0,0,0,.8);
+    display              : inline-block;
+    margin               : 0;
+    padding              : 8px 14px;
+  }
+  .msg-balloon {
+    background-color: #fff;
+    color: #18202f;
+    margin-left: 14px;
+    position: relative;
+  }
+
+  .left .msg-balloon:after {
+    background: #7292c2;
+    border-bottom-left-radius: 10px 8px;
+    content: '';
+    height: 34px;
+    left: -11px;
+    position: absolute;
+    top: -27px;
+    width: 46px;
+    z-index: -1;
+  }
+  .left .msg-balloon:before {
+    background: #fff;
+    border-radius: 22px;
+    content: '';
+    height: 44px;
+    left: -10px;
+    position: absolute;
+    top: -26px;
+    width: 44px;
+    z-index: -1;
+  }
+
+  .right {
+    float: right;
+    margin: 8px 0;
+    margin-left: 24px;
+  }
+
+  .right .msg-balloon {
+      background-color: #85e249;
+      color: #19232f;
+      margin-right: 10px;
+      position: relative;
+  }
+
+  .right .msg-balloon:after {
+      background: #7292c2;
+      border-bottom-right-radius: 10px 8px;
+      content: '';
+      height: 34px;
+      position: absolute;
+      right: -11px;
+      top: -27px;
+      width: 46px;
+      z-index: -1;
+  }
+  .right .msg-balloon:before {
+      background: #85e249;
+      border-radius: 22px;
+      content: '';
+      height: 44px;
+      position: absolute;
+      right: -10px;
+      top: -26px;
+      width: 44px;
+      z-index: -1;
+  }
+
+  .msg-balloon {
+    /*background-color: #627da6*/;
+    background-color: #ffffff;
+    color: #fff;
+  }
+  .msg-balloon {
+    -moz-border-radius   : 20px;
+    -webkit-border-radius: 20px;
+    border-radius        : 20px;
+    color                : rgba(0,0,0,.8);
+    display              : inline-block;
+    margin               : 0;
+    padding              : 8px 14px;
+  }
+  </style>
+</head>
+<body bgcolor="#7fa2cf">
+  <div class='left'>
+    <div class='left msg-balloon'>
+      あああああああああああああ
+    </div>
+  </div>
+
+  <div class='right'>
+    <div class='msg-balloon'>
+      あああああああああああああ
+    </div>
+  </div>
+</body>
