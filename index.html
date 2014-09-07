@@ -1,142 +1,66 @@
 <head>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script type="text/javascript" src="js/slide.js"></script>
-  <style>
-  .left {
-    float: left;
-    margin: 8px 0;
-    margin-left: 24px;
-  }
-
-  .msg-balloon {
-    -moz-border-radius   : 20px;
-    -webkit-border-radius: 20px;
-    border-radius        : 20px;
-    color                : rgba(0,0,0,.8);
-    display              : inline-block;
-    margin               : 0;
-    padding              : 8px 14px;
-  }
-  .msg-balloon {
-    background-color: #fff;
-    color: #18202f;
-    margin-left: 14px;
-    position: relative;
-  }
-
-  .left .msg-balloon:after {
-    background: #7292c2;
-    border-bottom-left-radius: 10px 8px;
-    content: '';
-    height: 34px;
-    left: -11px;
-    position: absolute;
-    top: -27px;
-    width: 46px;
-    z-index: -1;
-  }
-  .left .msg-balloon:before {
-    background: #fff;
-    border-radius: 22px;
-    content: '';
-    height: 44px;
-    left: -10px;
-    position: absolute;
-    top: -26px;
-    width: 44px;
-    z-index: -1;
-  }
-
-  .right {
-    float: right;
-    margin: 8px 0;
-    margin-left: 24px;
-  }
-
-  .right .msg-balloon {
-      background-color: #85e249;
-      color: #19232f;
-      margin-right: 10px;
-      position: relative;
-  }
-
-  .right .msg-balloon:after {
-      background: #7292c2;
-      border-bottom-right-radius: 10px 8px;
-      content: '';
-      height: 34px;
-      position: absolute;
-      right: -11px;
-      top: -27px;
-      width: 46px;
-      z-index: -1;
-  }
-  .right .msg-balloon:before {
-      background: #85e249;
-      border-radius: 22px;
-      content: '';
-      height: 44px;
-      position: absolute;
-      right: -10px;
-      top: -26px;
-      width: 44px;
-      z-index: -1;
-  }
-
-  .msg-balloon {
-    /*background-color: #627da6*/;
-    background-color: #ffffff;
-    color: #fff;
-  }
-  .msg-balloon {
-    -moz-border-radius   : 20px;
-    -webkit-border-radius: 20px;
-    border-radius        : 20px;
-    color                : rgba(0,0,0,.8);
-    display              : inline-block;
-    margin               : 0;
-    padding              : 8px 14px;
-  }
-
-  .center {
-    font-size: 0.8em;
-    padding  : 0 24px;
-    text-align: center;
-  }
-
-  .center .msg-balloon {
-    background-color: #627da6;
-    color: #fff;
-  }
-  </style>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body bgcolor="#7fa2cf">
 
-   <ul style='list-style:none' id='content'>
-     <li id=0>
-       <div class='center'>
-         <div class='msg-balloon'>にこまきさんがログインしました</div>
-       </div>
-     </li>
+  <div class='app-body'>
+    <div class='app-content'>
+      <div class='msgr-body'>
+        <div class='scrollable-content'>
+          <div class='container'>
+            <div class='msgr-container'>
+              <table class='info'>
+                <tbody>
+                  <tr>
+                    <td class='msg center-block text-center'>
+                      <div class='msg-balloon'>hoge</div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
 
-     <li id=1>
-       <div class='reft'>
-         <div class='msg-balloon'>みなさんこんにちは</div>
-       </div>
-     </li>
+              <table class='author'>
+                <tbody>
+                  <tr>
+                    <td class='col-msg'>
+                      <table class='msg'>
+                        <tbody>
+                          <tr>
+                            <td>
+                              <div class='msg-balloon'>hoge</div>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
 
-     <li id=2>
-       <div class='right'>
-         <div class='msg-balloon'>チームにこまきともうします</div>
-       </div>
-     </li>
+              <table class='me pull-right'>
+                <tbody>
+                  <tr>
+                    <td class='col-msg'>
+                      <div class='msg-balloon'>hoge</div>
+                    </td>
+                  </tr>
 
-     <li id=3>
-       <div class='right'>
-         <div class='msg-balloon'>チームにこまきともうします</div>
-       </div>
-     </li>
+                  <tr>
+                    <td class='col-msg'>
+                      <div class='msg-balloon'>hoge</div>
+                    </td>
+                  </tr>
 
-   </ul>
+                </tbody>
+              </table>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>

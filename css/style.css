@@ -1,0 +1,217 @@
+@charset "UTF-8";
+/*!
+ *  Font Awesome 4.1.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+@font-face {
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: 400;
+    src: url("/bower_components/font-awesome/fonts/fontawesome-webfont.eot?#iefix&v=4.1.0") format("embedded-opentype"),url(/bower_components/font-awesome/fonts/fontawesome-webfont.woff?v=4.1.0) format("woff"),url(/bower_components/font-awesome/fonts/fontawesome-webfont.ttf?v=4.1.0) format("truetype"),url(/bower_components/font-awesome/fonts/fontawesome-webfont.svg?v=4.1.0#fontawesomeregular) format("svg");
+}
+
+.import {
+    background-color: #fff;
+}
+.app-content-loading {
+    background: rgba(255,255,255,.8);
+    height: 100%;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 100;
+}
+.app-content-loading .loading-container {
+    left: 50%;
+    margin-left: -25px;
+    margin-top: -25px;
+    position: absolute;
+    top: 50%;
+}
+.app-content-loading .loading-container .loading-spinner {
+    font-size: 50px;
+}
+.app {
+    background-color: #7292c2;
+}
+.navbar.navbar-absolute-top {
+    background: #263147;
+    border-color: #666;
+    color: #fff;
+}
+.navbar.navbar-absolute-top .btn,.navbar.navbar-absolute-top .btn-navbar,.navbar.navbar-absolute-top a:hover {
+    color: #fff;
+}
+@media (min-width:992px) {
+    .navbar-brand-center {
+        float: left;
+        position: absolute;
+        text-align: center;
+        width: 100%;
+    }
+}
+#msgr-scroll {
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: visible;
+}
+.msgr-body {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+.msgr-body .container {
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.msgr-container {
+    font-size     : 1em;
+    margin        : 0 auto;
+    max-width     : 750px;
+    padding-bottom: 20px;
+}
+.msgr-container .msg-balloon {
+    -moz-border-radius   : 20px;
+    -webkit-border-radius: 20px;
+    border-radius        : 20px;
+    color                : rgba(0,0,0,.8);
+    display              : inline-block;
+    margin               : 0;
+    padding              : 8px 14px;
+}
+.msgr-container .col-time {
+    color: #fff;
+    font-size: 0.7em;
+    padding-bottom: 3px;
+    vertical-align: bottom;
+}
+.msgr-container table.author,
+.msgr-container table.info,
+.msgr-container table.me {
+    margin: 8px 0;
+}
+.msgr-container table.enter-exit {
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.msgr-container table.author .col-portrait {
+    vertical-align: top;
+}
+.msgr-container table.author .col-portrait .portrait-container,
+.msgr-container table.author .col-portrait .portrait-img {
+    width: 48px;
+}
+.msgr-container table.author .col-msg {
+    vertical-align: top;
+}
+.msgr-container table.author .col-msg .name {
+    color: #fff;
+    font-size: 0.8em;
+    margin-left: 12px;
+}
+.msgr-container table.author .col-msg .msg {
+    margin-top: 4px;
+}
+.msgr-container table.author .col-msg .msg .sticker {
+    margin-left: 14px;
+    margin-top: 4px;
+}
+.msgr-container table.author .col-msg .msg .msg-balloon {
+    background-color: #fff;
+    color: #18202f;
+    margin-left: 14px;
+    position: relative;
+}
+.msgr-container table.author .col-msg .msg .msg-balloon:after {
+    background: #7292c2;
+    border-bottom-left-radius: 10px 8px;
+    content: '';
+    height: 34px;
+    left: -11px;
+    position: absolute;
+    top: -27px;
+    width: 46px;
+    z-index: -1;
+}
+.msgr-container table.author .col-msg .msg .msg-balloon:before {
+    background: #fff;
+    border-radius: 22px;
+    content: '';
+    height: 44px;
+    left: -10px;
+    position: absolute;
+    top: -26px;
+    width: 44px;
+    z-index: -1;
+}
+.msgr-container table.author .col-msg .msg .col-time {
+    padding-left: 6px;
+}
+.msgr-container .me .col-time {
+    padding-right: 6px;
+}
+.msgr-container .me .col-msg .msg-balloon {
+    background-color: #85e249;
+    color: #19232f;
+    margin-right: 10px;
+    position: relative;
+}
+.msgr-container .me .col-msg .msg-balloon:after {
+    background: #7292c2;
+    border-bottom-right-radius: 10px 8px;
+    content: '';
+    height: 34px;
+    position: absolute;
+    right: -11px;
+    top: -27px;
+    width: 46px;
+    z-index: -1;
+}
+.msgr-container .me .col-msg .msg-balloon:before {
+    background: #85e249;
+    border-radius: 22px;
+    content: '';
+    height: 44px;
+    position: absolute;
+    right: -10px;
+    top: -26px;
+    width: 44px;
+    z-index: -1;
+}
+.msgr-container .info .msg {
+    font-size: 0.8em;
+    padding  : 0 24px;
+}
+.msgr-container .info .msg .msg-balloon {
+    background-color: #627da6;
+    color: #fff;
+}
+.msgr-container table.author {
+    margin-right: 24px;
+}
+.msgr-container table.me {
+    margin-left: 24px;
+}
+.msgr-container table.info {
+    margin-left: auto;
+    margin-right: auto;
+}
+.msgr-container img.sticker {
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+}
+.modal-danger .modal-header,
+.modal-info .modal-header,
+.modal-primary .modal-header,
+.modal-success .modal-header,
+.modal-warning .modal-header {
+    border-radius: 5px 5px 0 0;
+    color: #fff;
+}
+
+.pull-right {
+    float: right;
+}
+.pull-left {
+    float: left;
+}
