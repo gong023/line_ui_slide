@@ -95,18 +95,39 @@
     margin               : 0;
     padding              : 8px 14px;
   }
+
+  .center {
+    font-size: 0.8em;
+    padding  : 0 24px;
+    text-align: center;
+  }
+
+  .center .msg-balloon {
+    background-color: #627da6;
+    color: #fff;
+  }
   </style>
 </head>
-<body bgcolor="#7fa2cf">
-  <div class='left'>
-    <div class='left msg-balloon'>
-      あああああああああああああ
-    </div>
-  </div>
 
-  <div class='right'>
-    <div class='msg-balloon'>
-      あああああああああああああ
-    </div>
-  </div>
+<body bgcolor="#7fa2cf">
+
+  <ul style='list-style:none'>
+    <li>
+      <div class='center'>
+        <div class='msg-balloon'> あああああああああああああ </div>
+      </div>
+    </li>
+
+    <li>
+      <div class='reft'>
+        <div class='msg-balloon'> あああああああああああああ </div>
+      </div>
+    </li>
+
+    <li>
+      <div class='right'>
+        <div class='msg-balloon'> あああああああああああああ </div>
+      </div>
+    </li>
+  </ul>
 </body>
